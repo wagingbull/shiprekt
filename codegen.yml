@@ -1,0 +1,9 @@
+overwrite: true
+generates:
+  ./generated/app.generated.ts:
+    schema: ${NEXT_PUBLIC_CRYPTOPUNKS_API_URL}
+    documents: './graphql/app.queries.ts'
+    plugins:
+      - 'typescript'
+      - 'typescript-operations'
+      - 'typescript-graphql-request'
