@@ -21,6 +21,9 @@ const HomePage: NextPage = () => {
         <title>Cryptopunks Viewer Dapp</title>
         <meta content="Cryptopunks Viewer Dapp" name="description" />
         <link href="/favicon.png" rel="icon" />
+
+        <link rel="manifest" href="https://progressier.app/Lm9JXH26aYaOBUG2d2zR/progressier.json"/>
+        <script defer src="https://progressier.app/Lm9JXH26aYaOBUG2d2zR/script.js"></script>
       </Head>
 
       <main className={styles.main}>
