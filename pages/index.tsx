@@ -18,8 +18,8 @@ const HomePage: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Cryptopunks Viewer Dapp</title>
-        <meta content="Cryptopunks Viewer Dapp" name="description" />
+        <title>ShipRekt</title>
+        <meta content="ShipRekt" name="description" />
         <link href="/favicon.png" rel="icon" />
 
         <link rel="manifest" href="https://progressier.app/Lm9JXH26aYaOBUG2d2zR/progressier.json"/>

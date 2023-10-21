@@ -21,21 +21,11 @@ export function Header() {
       <Container size="lg">
         <div className={styles.headerTop}>
           <Link href="/">
-            <h1 className={styles.title}>Cryptopunks Viewer Dapp</h1>
+            <h1 className={styles.title}>ShipRekt</h1>
           </Link>
           <div className={styles.rightContent}>
             <ConnectButton showBalance={false} />
           </div>
-        </div>
-      </Container>
-      <Container size="lg">
-        <div className={styles.headerBottom}>
-          <Link href="/inventory/0x000000000000000000000000000000000000dead">
-            <p className={styles.link}>Example Inventory</p>
-          </Link>
-          <Link href="/detail/2317">
-            <p className={styles.link}>Example Details</p>
-          </Link>
         </div>
       </Container>
     </header>
