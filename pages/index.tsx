@@ -28,13 +28,10 @@ const HomePage: NextPage = () => {
 
       <main className={styles.main}>
         <Link href="/inventory/0x000000000000000000000000000000000000dead">
-          <img src="/favicon.png" alt="Click for example Cryptopunk" />
+          <img src="/favicon.jpg" alt="Click for example Cryptopunk" />
         </Link>
 
-        <AccountForm
-          title="Connect wallet or enter address to view Cryptopunks inventory"
-          onSubmit={handleSubmit}
-        />
+     
       </main>
 
       <footer className={styles.footer}>
